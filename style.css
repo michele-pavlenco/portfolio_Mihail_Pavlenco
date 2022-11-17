@@ -147,12 +147,27 @@ header {
 }
 
 /* ///.....Skill Bar....../// */
+.skills {
+  width: 50%;
+}
+
+.skills .right-content img {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  border-radius: 0px;
+}
+.skills .right-content .card {
+  width: calc(100% / 3);
+}
+
 .skills-bar {
   padding: 25px 30px;
 }
-
 .skills-bar .bar {
   margin: 25px 0;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .skills-bar .bar .info span {
