@@ -154,7 +154,7 @@ header {
 .skills .right-content img {
   width: 100%;
   height: auto;
-  padding: 50px;
+  padding: 20px;
   border-radius: 0px;
 }
 .skills .right-content .card {
@@ -728,5 +728,8 @@ header {
 @media (orientation: landscape) and (max-height: 500px) {
   .header {
     height: 90vmax;
+  }
+  .skills .right-content img {
+    padding: 10px;
   }
 }
