@@ -620,6 +620,9 @@ header {
   .skills {
     width: 100%;
   }
+  .skills .right-content img {
+    padding: 15px;
+  }
 
   .skills-bar .bar .progress-line {
     width: 100%;
@@ -690,6 +693,9 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .skills .right-content img {
+    padding: 70px;
   }
 
   .work-arrow {
